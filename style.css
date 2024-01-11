@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-container{
+    background-image: url(bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    height: 5rem;
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    margin: 8px 0px 0px 16px;
+    padding: 24px 32px;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    padding-right: 5rem;
+}
+
+.logo{
+    background-image: url(netflixLogo.jpg);
+    height: 3.5rem;
+    width: 12rem;
+    background-size: cover;
+}
+
+.nav-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50rem;
+}
+
+.language-picker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 30px;
+    border: 1.5px solid grey;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+}
+
+.language-picker i{
+    color: white;
+    font-size: 1.5rem;
+    background: transparent;
+}
+
+.lang{
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background: transparent;
+}
+
+.nav-signin{
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 1rem;
+    background-color: #E50914;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 50rem;
+    width: 80rem;
+    flex-wrap: wrap;
+}
+
+.sign-in h1{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.sign-in p{
+    color: white;
+    margin: 16px 0px;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.sign-in form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sign-in form h3{
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.email-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+.email{
+    color: white;
+    width: 33rem;
+    height: 4.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 16px 10px;
+    /* background: transparent; */
+    border: 1px solid rgb(141, 141, 141);
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+}
+
+.get-started{
+    width: 15rem;
+    background-color: #E50914;
+    border: none;
+    border-radius: 0.5rem;
+    height: 4.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+/* second-container*/
+
+hr{
+    border: 4px solid rgb(45, 43, 43);
+}
+
+.second-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    height: 75vh;
+}
+
+.enjoy-watching{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vh;
+    padding-right: 6px;
+}
+
+.para h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.para p{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 16px;
+}
+
+.watch-image{
+    height: 70vh;
+    width: 80vh;
+    padding-left: 6px;
+}
+
+.video-container {
+    position: relative;
+}
+
+.video-container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 73%;
+    height: 75%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 83px;
+}
+
+.video-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*third container */
+.third-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    height: 75vh;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px;
+}
+
+.download-image{
+    height: 70vh;
+    width: 80vh;
+    padding-left: 6px;
+}
+
+.image2{
+    background-image: url(image2.jpg);
+    height: 26rem;
+    width: 30rem;
+    background-size: contain;
+}
+
+.para2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vh;
+}
+
+.para2 h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.para2 p{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 16px;
+}
+
+/* fourth container*/
+
+.fourth-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    height: 75vh;
+}
+
+.watch-everywhere{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px;
+}
+
+.para3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vh;
+    padding-right: 6px;
+}
+
+.para3 h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.para3 p{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 16px;
+}
+
+.video-container-second{
+    position: relative;
+}
+
+.video-container-second video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+    /* background-size: cover; */
+    padding-left: 120px;
+    z-index: auto;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+/* fifth container*/
+.fifth-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    height: 75vh;
+}
+
+.kids-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px;
+}
+
+.kids-image{
+    height: 70vh;
+    width: 80vh;
+    padding-left: 6px;
+}
+
+.image4{
+    background-image: url(image4.png);
+    height: 25rem;
+    width: 30rem;
+    background-size: cover;
+}
+
+.para4{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vh;
+}
+
+.para4 h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.para4 p{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 16px;
+}
+
+/*sixth container*/
+.sixth-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* height: 100rem; */
+    background-color: black;
+}
+
+.asked-questions{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content:space-evenly;
+    height: 55rem;
+    width: 100%;
+    /* height: 100%;  */
+    flex-direction:column;
+}
+
+.asked-questions h2{
+    font-size: 3rem;
+    color: white;
+}
+
+.list-questions{
+    display: flex;
+    justify-content: space-evenly;
+    height: 85vh;
+    width: 80rem;
+    flex-direction: column;
+}
+
+.questions{
+    /* width: 100%; */
+    height: 5rem;
+    list-style-type: none;
+}
+
+.question-btn{
+    display: block;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-between;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    height: 6rem;
+}
+
+.question-span{
+    font-size: 1.5rem;
+}
+
+.plus{
+    font-size: 1.5rem;
+}
+
+.signin-second{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.signin-second form{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 5rem;
+}
+
+#h3{
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+    padding-left: 25rem;
+}
+
+.emaildiv-second{
+    display: flex;
+    align-items: center;
+    padding-left: 25rem;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+}
+
+.foot-panel1{
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 200px;
+    font-size: 1.2rem;
+}
+
+.foot-panel2{
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 25px;
+}
+
+ul a{
+    display: block;
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    height: 70px;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 200px;
+    color: white;
+}
